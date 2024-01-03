@@ -1,0 +1,164 @@
+<!DOCTYPE html> <!-- Doctype defines the documnet type such as html -->
+<html>
+<head><!-- <head> element is a container for metadata (data about data) and is placed between the <html> tag and the <body> tag.Metadata isn't displayed -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"
+	<title>HTML Filepaths</title> <br>
+	<!-- <title> is shown in the browser's title bar or in the page's tab-->
+</head>
+<body>
+<!--Comment isn't displayed in the browser -->
+
+<!-- <a> tag defines a hyperlink that is udes to link the pages -->
+	<a href="index.html">Home Page</a><br>
+ <a href="pages/blog/blog.html">Blog Page</a><br>
+
+ <h1>Home</h1>
+
+	<h1>Contact Information</h1>
+<address>Chattogram Outlet<br>  
+Shop #101-102, Ground Floor,<br>
+Concord Khulshi Town Center,<br>
+4 Zakir Hossain Road, Khulshi – 2, Chattogram<br>
+Contact # 01896005901</address>
+
+<!-- <map> is used to define an image map that is an image with clickable areas
+<img> is used to insert image
+<area> defines an area inside an image map-->
+<img src="image/creams.jpg" alt="Face Creams">
+
+<!--<article> is used for independent contents
+<h1> used for heading, <p> is used for writng paragraphs-->
+	<h1>Why to choose Shajgoj?</h1>
+	<article>
+		<h2>We care about our customer satisfaction most</h2>
+		<p>Our customers are our first priotity</p>
+	</article>
+<article>
+	<h2>Our Mission</h2>
+	<p>Our mission is to inspire women to be inspirational, to look beautiful, to feel confident and empowered.</p>
+</article>
+
+<!--  <aside> defines some content aside from the content it is placed in-->
+<aside>
+	<h4>You should give yourslf some time</h4>
+	<p>Everyone is beautiful, doesn’t really matter who you are! You’re beautiful, when you’re happy. You’re happy when you appreciate your true self. Pretty face is just a small part of a woman’s personality. Your own self is the sum of your education, intelligence, sense of humour, body language, etiquette and your charm! Shajgoj will assist you in finding your true self.</p>
+</aside>
+
+<!-- <audio> is used to add sound contents-->
+	<audio controls>
+	 <source src="audio/watersound.mp3" type="audio/mp3">
+</audio>
+
+<!-- <b> bolds the text -->
+	<p>You need to take care of yourself,<b>Are you doing that?</b></p>
+
+<!-- <ol> defines orderd list , that can be numeriacl or alphabetical, <li> is used to define each list item, for unordered list we use <ul>
+The <data> tag is used to add a machine-readable translation of a given content-->
+	<h2>Our Products:</h2>
+	<ol start="1">
+		<li><data value ="2105">Sunscreen</data></li>
+		<li><data value ="2115">Toner</data></li>
+		<li><data value ="2125">Serum</data></li>
+	</ol>
+	<h2>Additional Products:</h2>
+	<ul>
+		<li>Organic Packs</li>
+		<li>Hair Oil</li>
+	</ul>
+	<!-- The <bdi> tag isolates a part of text that might be formatted in a different direction from other text outside it.The <bdo> tag is used to override the current text direction-->
+		<bdo dir="rtl">
+			What is your skin care routine?
+		</bdo>
+
+ <!-- The <blockquote> tag specifies a section that is quoted from another source.-->
+ 	<h2>This is a blockquote element</h2>
+ 	<h3>Here is a quote from myglam's website:</h3>
+ 	<blockquote cite="https://www.myglamm.com/glammstudio/best-skincare-quotes">
+ 	Your skin has a memory. In ten, twenty, thirty years from now, your skin will show the results of how it was treated today. So treat it kindly and with respect.
+</blockquote>
+
+<!-- <button> defines a clickable button-->
+	<h2>The Button element</h2>
+	<button type="button" onclick="alert('How was your day?')">Click Me!</button>
+
+<!-- The <caption> tag defines a table caption.It must be inserted immediately after the <table> tag
+	The <tr> tag defines a row in an HTML table.
+The text in <td> elements are regular and left-aligned by default.
+The text in <th> elements are bold and centered by default
+ <colgroup> tag specifies a group of one or more columns in a table for formatting
+	<col> tag specifies column properties for each column within a <colgroup> element.-->
+<table>
+	<caption><b>Product prices</b></caption>
+	<colgroup>
+    <col span="3" style="background-color:blanchedalmond;">
+    <col style="background-color:yellow">
+  </colgroup>
+	<tr>
+		<th>Product</th>
+		<th>Price</th>
+	</tr>
+	<tr>
+		<td>Lip Balm</td>
+		<td>250 tk</td>
+	</tr>
+	<tr>
+		<td>Cleanser</td>
+		<td>1250 tk</td>
+	</tr>
+</table>
+
+<!-- The <cite> tag defines the title of a creative work,The text in the <cite> element usually renders in italic.-->
+	<p><cite>The Scream</cite> by Edward Munch. Painted in 1893.</p>
+
+<!-- The <code> tag is used to define a piece of computer code-->
+	<h2>The code element</h2>
+<p>The HTML <code>button</code> tag defines a clickable button.</p>
+
+<!-- The <dl> tag defines a description list
+	The <dt> tag defines a term/name in a description list.
+	The <dd> tag is used to describe a term/name in a description list-->
+<h2>The dl, dd, and dt elements</h2>
+<dl>
+  <dt>Sunscreen</dt>
+  <dd>Used for sun protection</dd>
+  <dt>Serum</dt>
+  <dd>Used for skin hydration</dd>
+</dl>
+
+<!-- The <dialog> tag defines a dialog box or subwindow -->
+	<dialog open>This is an open dialog window</dialog>
+
+<!-- The <del> tag defines text that has been deleted from a document. Browsers will usually strike a line through deleted text
+	The <ins> tag defines a text that has been inserted into a document. Browsers will usually underline inserted text-->
+<p>We should use SPF <del> 30</del><ins> 50+ </ins>sunscreen</p>
+
+<!-- <details> tag specifies additional details that the user can open and close on demand
+<summary> tag defines a visible heading for the <details> element. The heading can be clicked to view/hide the details.The <summary> element should be the first child element of the <details> element.-->
+
+	<details>
+		<summary>Why to use sunscreen?</summary>
+		<p>sunscreen helps prevent sunburn, skin cancer and premature aging</p>
+	</details>
+
+<!--The <dfn> specifies a term that is going to be defined within the content-->
+	<p><dfn>Toner</dfn> is a water-based liquid form that may be infused with skin-soothing ingredients like eucalyptus, peppermint and aloe</p>
+
+<!-- The <div> tag defines a division or a section in an HTML document-->
+	<div class="myDiv">
+  <h2>Don't forget to apply sunscreen </h2>
+  <p>Apply it after using moisturizer</p>
+</div>
+
+<!-- The <em> tag is used to define emphasized text. The content inside is typically displayed in italic-->
+	<p>You <em>have</em>to take care of your skin at first</p>
+
+<!-- The <figure> tag specifies self-contained content
+	The <figcaption> tag defines a caption for a <figure> element-->
+<figure>
+  <img src="image/beautytools.jpg" alt="Tools" >
+  <figcaption>Fig.1 -Beauty tools </figcaption>
+</figure>
+
+</body>
+</html>
